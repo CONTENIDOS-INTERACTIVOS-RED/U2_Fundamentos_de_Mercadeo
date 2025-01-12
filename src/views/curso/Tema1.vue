@@ -234,7 +234,7 @@
               p #[b Ejemplo:] Muji y Marie Kondo, promueven un estilo de vida minimalista.
 
 
-    h4(data-aos="fade-left").mb-4 Etapas del proceso de decisión del consumidor
+    h2(data-aos="fade-left").mb-4 Etapas del proceso de decisión del consumidor
 
     .row.align-items-start.mb-5
 
