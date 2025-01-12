@@ -22,12 +22,10 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 El mercadeo es una herramienta esencial en un mundo globalizado y en constante cambio, permitiendo la creación de valor, la satisfacción del cliente y la construcción de relaciones sólidas entre marcas y consumidores. En esta primera unidad, se explorarán los principios fundamentales del mercadeo, su historia, funciones y evolución, destacando su impacto en las organizaciones y en la sociedad actual.
-
-              p.descripcion.mb-4 A través de este recorrido, comprenderás cómo el mercadeo tradicional y digital se complementan, respondiendo a los desafíos del mercado con estrategias innovadoras y personalizadas.
+              p.descripcion.mb-4 Comprender el comportamiento del consumidor y la segmentación de mercados es esencial para diseñar estrategias de marketing efectivas que conecten con las necesidades y valores del público objetivo. En esta unidad, se explorarán los factores que influyen en las decisiones de compra, como los aspectos psicológicos, sociales y culturales, junto con métodos avanzados de segmentación que integran inteligencia artificial y análisis predictivo.
 
 
-              p #[b ¡Prepárese para entender la importancia del mercadeo como motor de crecimiento y competitividad en un entorno dinámico!]
+              p #[b Prepárese para analizar casos prácticos y desarrollar habilidades que te permitirán crear estrategias innovadoras en escenarios reales.]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

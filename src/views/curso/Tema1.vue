@@ -1,50 +1,36 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Concepto y funciones del mercadeo'")
+  BannerInterno(:subTitulo="'1. Comportamiento del consumidor y segmentación de mercados'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
+    p(data-aos="fade-left").mb-4  Para comenzar con el estudio de la temática, lo invitamos primer a ver el siguiente video.
 
-    p(data-aos="fade-right") Para dar inicio a la unidad, es importante conocer primero qué es el mercadeo y cuáles son sus principales funciones.
+    .bg-full-width.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-
-    .bg-full-width.bg-color-2.mb-lg-5
-      .px-4.p-md-5
-        .row.justify-content-center.align-items-center
-          .col-lg-8
-            h2.mb-4(data-aos="flip-up") Concepto del mercadeo
-            p.mb-4(data-aos="fade-right") El mercadeo, como disciplina estratégica, desempeña un papel clave en la identificación y satisfacción de las necesidades del consumidor, generando valor para empresas, clientes y la sociedad. En el PDF #[b Concepto del mercadeo], se estudia su concepto, evolución y funciones esenciales, destacando cómo el análisis del comportamiento del consumidor, la creación de valor y las herramientas tecnológicas modernas, permiten a las organizaciones adaptarse a un entorno globalizado. A través de principios éticos y responsables, el mercadeo se presenta no solo como un motor de competitividad empresarial, sino también como un agente de impacto positivo en el desarrollo social y ambiental.
-
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_T1.pdf')" target="_blank")(data-aos="flip-up")
-              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
-                img(src="@/assets/template/icono-pdf.svg")
-              .anexo__texto
-                p <strong>Anexo. </strong> Concepto del mercadeo
-
-          .col-lg-4
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema1/1.png', alt='')
-
-
+  
 
     #t_1_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 1.1] Pilares fundamentales del mercadeo
+      h2 #[span 1.1] Factores que influyen en el comportamiento del consumidor
+
+    .bg-color-4.mb-5(data-aos="fade-up")
+      .row.justify-content-center.align-items-center
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/tema1/1.png', alt='')
+        .col-lg
+          .p-4
+            p.mb-0(data-aos="fade-up") El comportamiento del consumidor está determinado por una interacción compleja de factores psicológicos, sociales, culturales y personales, los cuales influyen directamente en la forma en que las personas identifican sus necesidades, buscan información, evalúan alternativas y toman decisiones de compra. Comprender estos factores es crucial para diseñar estrategias de marketing que respondan efectivamente, a las expectativas y motivaciones de los consumidores.
 
 
-    .row.mb-5
-      .col-lg-8
-        .bg-color-3.px-4.py-5(data-aos="fade-left").mb-4
-          p.mb-0 El mercadeo, como disciplina estratégica, tiene como base principios que no solo guían las prácticas empresariales, sino que también definen su impacto en los consumidores, las empresas y la sociedad. Estos pilares permiten a las organizaciones adaptarse a un entorno cambiante, garantizar su competitividad, y contribuir al bienestar social y ambiental. Diversas referencias académicas y autores, como Kotler, Céspedes Sáenz y Orero-Blat, destacan que el mercadeo moderno debe centrarse en el valor, la sostenibilidad, la tecnología y la conexión emocional.
+    h2(data-aos="fade-left") Motivación y percepción del consumidor
 
-        h5.mb-4(data-aos="fade-left") Creación de valor
-        
-        p(data-aos="fade-left") El principal objetivo del mercadeo, es la generación de valor, que debe trascender el producto o servicio y conectarse profundamente con las necesidades, deseos y expectativas del consumidor. Este valor tiene tres dimensiones:
+    p(data-aos="fade-left").mb-4  Estudiemos algunos aspectos importantes sobre la motivación y percepción del consumidor:
 
-      .col-lg-4.d-none.d-sm-block
-        figure
-          img(src="@/assets/curso/tema1/2.svg", data-aos="zoom-in").mb-4.mb-lg-0
-
-
-    .bg-full-width.bg-fondo-slider
+    .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white(data-aos="zoom-in")
           .row.align-items-center.p-4.p-md-5
@@ -52,178 +38,142 @@
               figure
                 img(src="@/assets/curso/tema1/slider-1.png")
             .col-lg-7
-              h5 Funcional
-              p Soluciones prácticas que resuelven problemas específicos.
-
-              ul.lista-ul
-                li.mb-2
-                  i.fas.fa-check-circle
-                  | #[b Ejemplo:] productos como electrodomésticos eficientes que facilitan tareas diarias.
+              h5 Relación entre necesidades y comportamientos
+              p Las necesidades humanas se clasifican en categorías jerárquicas que abarcan desde las básicas (alimento, seguridad), hasta las más elevadas (autorrealización). Estas necesidades impulsan los comportamientos, creando motivaciones específicas que guían las decisiones de compra. Por ejemplo, un consumidor preocupado por su salud, puede estar motivado a comprar productos orgánicos que percibe como más seguros y beneficiosos.
 
           .row.align-items-center.p-4.p-md-5
             .col-lg-5
               figure
                 img(src="@/assets/curso/tema1/slider-2.png")
             .col-lg-7
-              h5 Emocional
-              p
-                | Generación de experiencias significativas que refuercen la lealtad del consumidor.
-              ul.lista-ul
-                li.mb-2
-                  i.fas.fa-check-circle
-                  | #[b Ejemplo:]  las campañas publicitarias de Coca-Cola, que evocan felicidad y momentos compartidos.
-
+              h5 Cómo los consumidores perciben productos ecológicos y sostenibles
+              p La percepción se define como el proceso mediante el cual las personas seleccionan, organizan e interpretan estímulos, para darles un significado. En el caso de los productos sostenibles, los consumidores tienden a asociar estos bienes con valores positivos como responsabilidad social y ambiental, lo que incrementa su disposición para adquirirlos (Céspedes Sáenz, 2010). Esto es especialmente relevante en un mercado donde la sostenibilidad es percibida como un diferenciador clave.
 
           .row.align-items-center.p-4.p-md-5
             .col-lg-5
               figure
                 img(src="@/assets/curso/tema1/slider-2.png")
             .col-lg-7
-              h5 Social
-              p
-                | Integrar valores compartidos, como la sostenibilidad y la inclusión, en la identidad de la marca.
-              ul.lista-ul
-                li.mb-2
-                  i.fas.fa-check-circle
-                  | #[b Ejemplo:]  Patagonia, una empresa que prioriza prácticas sostenibles, construye relaciones profundas con consumidores que valoran el cuidado ambiental.
+              h5 Ejemplo práctico
+              p El análisis de estrategias de marketing de empresas como Patagonia y Tesla, muestra cómo estas marcas integran valores de sostenibilidad en sus comunicaciones. Patagonia utiliza campañas centradas en la economía circular, promoviendo la reparación y reutilización de ropa, mientras que Tesla resalta la innovación tecnológica de sus vehículos eléctricos como una contribución directa a la reducción de la huella de carbono (Kotler et al., 2021). Estas estrategias no solo destacan los atributos funcionales de sus productos, sino que también conectan emocionalmente con consumidores motivados por la sostenibilidad.
 
 
+    .row.mb-5
+      .col-lg-8
+        h2(data-aos="fade-left") Factores psicológicos, sociales, culturales y personales
+        .bg-color-1.p-4(data-aos="fade-left").mb-4
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema1/2.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 El comportamiento del consumidor está moldeado por un conjunto de factores interrelacionados que van más allá de las motivaciones individuales, abarcando influencias del entorno social y cultural en el que se desenvuelven.
 
+        p(data-aos="fade-left") Estos factores desempeñan un rol clave en cómo los consumidores toman decisiones y construyen relaciones con las marcas:
 
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema1/3.png", data-aos="zoom-in")
 
-    .bg-full-width.bg-fondo-2.mb-5
-      .ps-4.ps-lg-5
-
-        .row.justify-content-center.align-items-stretch
-
-          .col-lg-6(data-aos="fade-left")
-            .pt-5
-              p(data-aos="fade-left").my-4 #[strong Reflexiones desde la literatura]
-              
-              ol.lista-ol(data-aos="fade-up")
-                li.mb-4
-                  .lista-ol--cuadro__vineta
-                    span 1
-                  | Según Kotler y Keller (Marketing Management), "El valor percibido por el cliente es el núcleo de cualquier estrategia de marketing exitosa. Sin valor, no hay demanda ni lealtad”.
-                li 
-                  .lista-ol--cuadro__vineta
-                    span 2
-                  | Céspedes Sáenz (2010), refuerza que el mercadeo debe buscar la diferenciación a través de un entendimiento profundo de las expectativas del cliente y el entorno social.
-
-
-          .col-lg-6(data-aos="zoom-in")
-            img.img-fluid(src='@/assets/curso/tema1/3.svg', style="max-width:506px", alt="").mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
-
-
-
-    h2(data-aos="fade-left") Satisfacción del cliente
-
-    p(data-aos="fade-left") La satisfacción del cliente es el resultado directo de ofrecer valor que cumpla o supere las expectativas del consumidor. Este pilar se enfoca en:
 
     .row.align-items-center.mb-5
-      .col-lg-8
-        LineaTiempoD.color-primario.large(data-aos="fade-left")
-          div(numero="1" titulo="Anticipar las necesidades del cliente") 
-            p Analizar las tendencias y comportamientos para personalizar experiencias.
-            ul.lista-ul
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Ejemplo:] Amazon utiliza inteligencia artificial para recomendar productos adaptados a los intereses del cliente.
-
-          div(numero="2" titulo="Ofrecer experiencias memorables") 
-            p Diseñar interacciones que generen fidelidad y motivación para recomendar la marca.
-            ul.lista-ul
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Ejemplo:] los parques temáticos de Disney priorizan experiencias inmersivas, que superan las expectativas de los visitantes.
-
       .col-lg-4
         figure
           img(src="@/assets/curso/tema1/4.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
 
 
+      .col-lg-8
+        LineaTiempoD.color-primario.large(data-aos="fade-left")
+          div(numero="1" titulo="Actitudes") 
+            h5.mb-2 Impacto de actitudes, roles sociales y costumbres, en las decisiones 
+            p Las actitudes de los consumidores, definidas como predisposiciones aprendidas hacia objetos o ideas, influyen directamente en la manera en que perciben y evalúan productos. Por ejemplo, una actitud positiva hacia la tecnología sostenible, puede inclinar a un consumidor hacia la compra de dispositivos ecoamigables. Además, los roles sociales que desempeñan las personas, ya sea como padres, trabajadores o líderes de opinión, afectan las categorías de productos que consideran relevantes. Asimismo, las costumbres y normas culturales establecen pautas que determinan qué comportamientos de compra son aceptables o deseables, dentro de un grupo social, como ocurre con la preferencia por productos locales en comunidades culturalmente arraigadas (Céspedes Sáenz, 2010).
+
+          div(numero="2" titulo="Clase social") 
+            h5.mb-2 Relevancia de la clase social y el estilo de vida en el comportamiento del consumidor 
+            p La clase social, determinada por factores como ingresos, ocupación y nivel educativo, influye en el acceso y preferencia por ciertos bienes y servicios. Los consumidores en niveles socioeconómicos altos, por ejemplo, tienden a valorar productos premium asociados con exclusividad y calidad, mientras que los de niveles más bajos, suelen priorizar funcionalidad y precio. Por otro lado, el estilo de vida, entendido como los patrones de actividades, intereses y opiniones de los consumidores, define cómo gastan su tiempo y recursos. Según Cortés Cabrera (2023), este aspecto es crucial para segmentar mercados, dado que permite identificar grupos de consumidores que comparten hábitos similares, como aquellos interesados en actividades deportivas, que demandan productos específicos.
+
+    h2(data-aos="fade-left") Tendencias de consumo
+
+    p(data-aos="fade-left").mb-4  El comportamiento del consumidor, es un fenómeno dinámico que evoluciona constantemente, condicionado por factores económicos, tecnológicos, sociales y ambientales. Estas transformaciones tienen un impacto directo en las estrategias de marketing, exigiendo a las empresas innovar y adaptarse para mantenerse relevantes y competitivas en un entorno en constante cambio. 
 
 
     .row.mb-5
-      .col-lg-5.d-none.d-sm-block
-        figure
-          img(src="@/assets/curso/tema1/5.png", data-aos="zoom-in").mb-4.mb-lg-0
-      .col-lg-7
-        h5.mb-4 Reflexiones desde la literatura
 
-        .bg-color-1.px-4.pb-4.pt-5(data-aos="fade-left")
-          ol.lista-ol
-            li.mb-4
-              .lista-ol--cuadro__vineta
-                span 1
-              | Orero-Blat et al. Un enfoque práctico del marketing estratégico, operativo y digital, enfatizan que la satisfacción del cliente debe ser una prioridad que esté respaldada por la tecnología y estrategias personalizadas.
-
-            li 
-              .lista-ol--cuadro__vineta
-                span 2
-              | Según Kotler (#[em Marketing Management]), "Un cliente satisfecho no solo regresa, sino que se convierte en un embajador de la marca, promoviendo su valor a otros consumidores".
-
-
-    h2(data-aos="fade-left") Relación a largo plazo
-
-    p(data-aos="fade-left") El mercadeo moderno no se enfoca exclusivamente en las transacciones, sino en establecer relaciones sostenibles, basadas en la confianza mutua. Este pilar incluye:
-
-
-    .row.align-items-center.mb-5
       .col-lg-8
-        LineaTiempoD.color-primario.large(data-aos="fade-left")
-          div(numero="1" titulo="Personalización") 
-            p Adaptar productos y servicios, según las preferencias individuales.
-            ul.lista-ul
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Ejemplo:] Netflix utiliza datos, para ofrecer contenido personalizado a sus usuarios.
 
-          div(numero="2" titulo="Conexión emocional") 
-            p Establecer vínculos significativos, que refuercen la fidelidad.
-            ul.lista-ul
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Ejemplo:] Apple ha construido relaciones duraderas con sus usuarios, mediante un ecosistema integrado de dispositivos y servicios.
+        h4(data-aos="fade-left").mb-4 A.  Cambios en los hábitos de consumo en mercados emergentes 
+        
+        .bg-color-1.p-4(data-aos="fade-left").mb-4
+          p.mb-0   Los mercados emergentes, han experimentado un cambio significativo en sus patrones de consumo, impulsado principalmente por el crecimiento económico, el aumento de la clase media y el acceso masivo a tecnologías digitales. Estos factores han empoderado a los consumidores, quienes ahora cuentan con mayor capacidad de elección y exigencia, respecto a los productos que adquieren. Esta evolución se manifiesta en la preferencia por bienes de calidad superior, el interés por marcas locales que reflejan la identidad cultural y un consumo más informado y responsable.
+        
+        p(data-aos="fade-left").mb-4 El comercio electrónico ha sido un catalizador clave de este cambio, permitiendo a los consumidores adquirir productos desde cualquier lugar, comparando precios y características en tiempo real. Sectores como la moda, la tecnología y los alimentos, han registrado un notable crecimiento en plataformas digitales.
 
-          div(numero="3" titulo="Servicio postventa") 
-            p Mantener la relación, a través de atención continua.
-            ul.lista-ul
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Ejemplo:] Tesla se destaca por ofrecer soporte técnico y actualizaciones de software, incluso después de la compra.
 
       .col-lg-4
         figure
-          img(src="@/assets/curso/tema1/6.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
+          img(src="@/assets/curso/tema1/5.png", data-aos="zoom-in")
+
+    .row.mb-5
+
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema1/6.png", data-aos="zoom-in")
+      .col-lg-8
+
+        p(data-aos="fade-left").mb-4 Por ejemplo, en mercados como India y Brasil, las empresas locales están ganando terreno frente a las multinacionales, al ofrecer productos personalizados que se ajustan mejor a las necesidades y preferencias culturales de sus consumidores.
+
+        .bg-color-5.p-4(data-aos="fade-left").mb-4
+          p.mb-0 Asimismo, los consumidores de mercados emergentes, están adoptando prácticas más conscientes, como la compra de productos sostenibles y la búsqueda de experiencias de consumo que integren tecnología, conveniencia y responsabilidad social. Este cambio está desafiando a las empresas, para ofrecer no solo productos, sino también valores y experiencias que conecten emocionalmente con sus clientes.
+        
+    .row.mb-5
+
+      .col-lg-8
+
+        h4(data-aos="fade-left").mb-4 B. Relación con sostenibilidad, responsabilidad social y economía circular
+        
+        .bg-color-1.p-4(data-aos="fade-left").mb-4
+          p.mb-0   La sostenibilidad se ha convertido en un elemento fundamental en las decisiones de compra, especialmente entre las generaciones más jóvenes, que valoran las prácticas empresariales éticas y responsables. 
+        
+        p(data-aos="fade-left").mb-4 Este cambio responde a una mayor conciencia sobre los efectos negativos de las actividades económicas en el medio ambiente y las comunidades. Las empresas que adoptan iniciativas sostenibles, como la economía circular, están logrando diferenciarse en un mercado altamente competitivo.
+
+        p(data-aos="fade-left").mb-4 #[strong Conozcamos dos términos importantes:]
 
 
-
-    .bg-full-width.bg-fondo-2.mb-5
-
-      .row.justify-content-center.align-items-stretch
-        .col-lg-6(data-aos="zoom-in")
-          .pe-5
-            img.img-fluid(src='@/assets/curso/tema1/7.svg', style="max-width:509px", alt="").mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
-
-        .col-lg-6(data-aos="fade-left")
-          .pt-5.pe-5
-            p(data-aos="fade-left").my-4 #[strong Reflexiones desde la literatura]
-            
-            ol.lista-ol(data-aos="fade-up")
-              li.mb-5
-                .lista-ol--cuadro__vineta
-                  span 1
-                | Según Kotler y Keller, "El #[em marketing] relacional maximiza el valor del cliente durante toda su vida útil, transformando compradores, en defensores leales de la marca".
-              li 
-                .lista-ol--cuadro__vineta
-                  span 2
-                | UAPA (#[em Mercadotecnia], 2023), señala que construir relaciones a largo plazo, no solo aumenta la rentabilidad, sino que reduce significativamente, los costos asociados con la adquisición de nuevos clientes.
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema1/7.png", data-aos="zoom-in")
 
 
-    h2(data-aos="fade-left") Adaptabilidad al entorno
+    TabsC.color-acento-contenido.mb-5
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Economía Circular" :icon="require('@/assets/bullets/icon-tab-c-1.svg')")
+        .row
+          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+            h4 Economía Circular
+            p Diseñar productos que puedan reutilizarse, reciclarse o descomponerse de manera segura, reduciendo así el impacto ambiental.
 
-    p(data-aos="fade-left") La adaptabilidad, permite a las empresas mantenerse relevantes frente a cambios tecnológicos, sociales y económicos. Esto implica:
+            p #[strong Ejemplo.] Marcas como Patagonia e IKEA, han liderado esfuerzos en esta área al implementar programas de reciclaje y ofrecer productos fabricados con materiales reciclados. Estas iniciativas no solo contribuyen a la sostenibilidad ambiental, sino que también fortalecen la lealtad de los clientes.
+        
+          .col-md-6.col-lg-5.col-xl-4.order-1
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/8.png', alt='')
+
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Responsabilidad Social Corporativa (RSC)" :icon="require('@/assets/bullets/icon-tab-c-2.svg')")
+        .row
+          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+            h4 Responsabilidad Social Corporativa (RSC)
+            p Conecta a las empresas con sus consumidores al reflejar un compromiso genuino con la sociedad y el medio ambiente. Según Céspedes Sáenz (2010), las empresas que integran prácticas de RSC fortalecen sus relaciones con los clientes y mejoran su reputación y acceso a nuevos mercados.
+
+            p #[strong Ejemplo.] Coca-Cola, que implementa proyectos de acceso al agua potable en comunidades vulnerables, alineando sus operaciones con objetivos de impacto social.
+
+
+        
+          .col-md-6.col-lg-5.col-xl-4.order-1
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/9.png', alt='')
+
+
+    h4(data-aos="fade-left").mb-4 C. Factores adicionales de consumo
+
+    p(data-aos="fade-left").mb-4 El proceso de decisión del consumidor es un recorrido lógico y emocional que los individuos realizan antes, durante y después de adquirir un producto o servicio. Este proceso, aunque en apariencia lineal, puede variar en función de factores individuales, sociales y culturales. Entender cada etapa, permite a las empresas optimizar sus estrategias para influir positivamente en las decisiones de compra:
 
 
     .bg-full-width.bg-fondo-slider.mb-5
@@ -234,281 +184,101 @@
               figure
                 img(src="@/assets/curso/tema1/slider-1-2.png")
             .col-lg-7
-              h5 Innovación
-              p Desarrollo de nuevos productos y servicios que respondan a las demandas cambiantes.
-              ul.lista-ul
-                li.mb-2
-                  i.fas.fa-check-circle
-                  | #[b Ejemplo:] Spotify y Netflix, adaptaron sus modelos de negocio, al auge del streaming.
+              h5 Digitalización y experiencias omnicanal
+              p Los consumidores buscan experiencias integradas entre canales físicos y digitales. La omnicanalidad mejora la comodidad del consumidor y fortalece la relación con la marca.
+              p #[b Ejemplo:] Starbucks combina su aplicación móvil, recompensas digitales y tiendas físicas, facilitando el pedido y pago en línea.
 
           .row.align-items-center.p-4.p-md-5
             .col-lg-5
               figure
                 img(src="@/assets/curso/tema1/slider-2-2.png")
             .col-lg-7
-              h5 Ajuste estratégico
-              p Modificar las tácticas basándose en datos e investigación.
-              ul.lista-ul
-                li.mb-2
-                  i.fas.fa-check-circle
-                  | #[b Ejemplo:] empresas de moda sostenible, responden al creciente interés por el consumo ético.
+              h5 Consumo basado en la autenticidad y la transparencia
+              p Las marcas deben mostrar, claramente, cómo fabrican sus productos, los ingredientes que utilizan y su impacto social y ambiental.
+              p #[b Ejemplo:] Everlane, es conocida por su enfoque en la "transparencia radical", mostrando los costos detallados de la producción de cada artículo.
 
           .row.align-items-center.p-4.p-md-5
             .col-lg-5
               figure
                 img(src="@/assets/curso/tema1/slider-3-2.png")
             .col-lg-7
-              h5 Tecnología digital
-              p Aprovechar herramientas como redes sociales y análisis de datos, para conectar con los consumidores.
-              ul.lista-ul
-                li.mb-2
-                  i.fas.fa-check-circle
-                  | #[b Ejemplo:] las marcas interactúan directamente con los usuarios a través de campañas, en plataformas como Instagram y TikTok.
+              h5 Crecimiento del mercado de productos saludables y orgánicos
+              p Existe una tendencia creciente hacia el consumo de productos que promueven la salud y el bienestar personal, como alimentos orgánicos y cosméticos naturales.
+              p #[b Ejemplo:] Whole Foods y Natura, se enfocan en productos saludables y éticos.
 
-    .row.mb-5
-      .col-lg-7
-        h5.mb-4 Reflexiones desde la literatura
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/slider-4-2.png")
+            .col-lg-7
+              h5 Impacto del consumo colaborativo o economía compartida
+              p Modelos como el alquiler, intercambio o suscripción, reducen el desperdicio y fomentan una economía más sostenible.
+              p #[b Ejemplo:] Uber, Airbnb o Rent the Runway, transforman sectores tradicionales al ofrecer alternativas más accesibles y sostenibles.
 
-        .bg-color-1.px-4.pb-4.pt-5(data-aos="fade-left")
-          ol.lista-ol
-            li.mb-4
-              .lista-ol--cuadro__vineta
-                span 1
-              | Orero-Blat et al. destacan que "La capacidad de las empresas para adaptarse, define su éxito en un entorno digital cada vez más competitivo".
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/slider-5-2.png")
+            .col-lg-7
+              h5 El papel del consumidor como prosumidor
+              p Los consumidores no solo consumen, sino que también participan activamente en la creación de productos.
+              p #[b Ejemplo:] Lego Ideas, permite a los consumidores diseñar nuevos productos que se convierten en parte de la línea oficial.
+
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/slider-6-2.png")
+            .col-lg-7
+              h5 Tendencia hacia el minimalismo y consumo consciente
+              p En respuesta al consumismo excesivo, algunos consumidores priorizan la calidad sobre la cantidad, eligiendo productos con propósito y durabilidad.
+              p #[b Ejemplo:] Muji y Marie Kondo, promueven un estilo de vida minimalista.
 
 
-            li 
-              .lista-ol--cuadro__vineta
-                span 2
-              | Kotler en #[em Marketing 5.0], subraya que la tecnología es un motor crucial para mantener la competitividad en la era moderna.
+    h4(data-aos="fade-left").mb-4 Etapas del proceso de decisión del consumidor
 
+    .row.align-items-start.mb-5
 
-      .col-lg-5.d-none.d-sm-block
+      .col-lg-8
+        LineaTiempoD.color-primario.large(data-aos="fade-left")
+          div(numero="1" titulo="Reconocimiento del problema") 
+            p Esta etapa inicial ocurre cuando el consumidor identifica una necesidad o un problema que requiere ser resuelto. Este reconocimiento puede surgir de estímulos internos, como el hambre o la comodidad; o externos, como la influencia de publicidad, amigos o redes sociales. La identificación de esta necesidad, es el motor que impulsa todo el proceso.
+            p #[b Ejemplo.] En mercados con alta penetración tecnológica, como el de los smartphones, los consumidores reconocen la necesidad de actualizar sus dispositivos, debido a nuevas funcionalidades, o la presión social por estar al día con las tendencias.
+            p Las empresas deben posicionar sus productos como soluciones claras y convincentes a problemas específicos, utilizando herramientas como publicidad emocional o testimonios de usuarios satisfechos para destacar la relevancia del producto.
+
+          div(numero="2" titulo="Búsqueda de información") 
+            p Tras identificar la necesidad, los consumidores buscan información sobre posibles soluciones. Este paso puede incluir consultas a los amigos, reseñas en línea, análisis de productos o publicidad. En la era digital, el acceso a múltiples fuentes de información, ha transformado esta etapa, haciendo que las empresas adapten sus estrategias para destacar en los canales de búsqueda más relevantes.
+            p #[b Ejemplo.] Plataformas como Google y Amazon, ofrecen no solo información detallada, sino también comparativas de productos y opiniones de otros usuarios. Estas herramientas ayudan a los consumidores a tomar decisiones más informadas.
+            p Cortés Cabrera (2023), destaca que la claridad y accesibilidad de la información son esenciales para capturar la atención del consumidor en esta fase, especialmente en mercados donde la competencia es intensa.
+
+          div(numero="3" titulo="Evaluación de alternativas")
+            p En esta etapa, el consumidor compara las distintas opciones que ha identificado. La evaluación se basa en criterios personales, como el precio, la calidad, la conveniencia y las características del producto. También influyen factores sociales y culturales, como las recomendaciones de amigos o los valores asociados a una marca.
+            p #[b Ejemplo.] En la industria de los alimentos orgánicos, los consumidores tienden a priorizar certificaciones de sostenibilidad y opiniones de otros clientes, al elegir productos.
+            p Giraldo Oliveros et al. (2021), sugieren que, en esta fase, las empresas pueden destacar al proporcionar información sobre los beneficios únicos de sus productos y enfatizar los valores de la marca, que resuenen con las prioridades del consumidor.
+
+          div(numero="4" titulo="Decisión de compra")
+            p Una vez evaluadas las opciones, el consumidor selecciona el producto o servicio que mejor satisface su necesidad. Sin embargo, esta decisión puede verse influenciada en el último momento, por promociones, recomendaciones o la experiencia de compra en el punto de venta.
+            p #[b Ejemplo.] En sectores como la moda, las ofertas de última hora, los descuentos en carritos abandonados o envío gratuito, pueden ser determinantes para la conversión.
+            p La investigación de Orero-Blat et al. (2021), subraya la importancia de ofrecer incentivos claros y personalización en esta etapa, para reducir el tiempo de decisión y aumentar la probabilidad de compra.
+
+          div(numero="5" titulo="Comportamiento post-compra")
+            p Después de la compra, el consumidor evalúa si el producto o servicio cumplió con sus expectativas. Esta etapa es crucial, dado que una experiencia positiva puede fomentar la lealtad del cliente y generar recomendaciones, mientras que una experiencia negativa, puede tener el efecto contrario.
+            p #[b Ejemplo.] En la industria tecnológica, marcas como Apple han logrado fidelizar a sus clientes al ofrecer servicios post-venta excepcionales, como soporte técnico eficiente y actualizaciones regulares de software.
+            p Kotler y Kotler (2016), destacan que el seguimiento post-compra no solo refuerza la satisfacción del cliente, sino que también ofrece valiosa retroalimentación, para mejorar el producto y el servicio.
+
+      .col-lg-4
         figure
-          img(src="@/assets/curso/tema1/8.png", data-aos="zoom-in").mb-4.mb-lg-0
+          img(src="@/assets/curso/tema1/10.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
 
 
-    #Tarjetas1.bg-full-width.bg-fondo-3
-      .px-4.px-md-5.pb-md-3
-        .row.justify-content-center.align-items-stretch.mb-5
-          .col-lg-3.mb-4(data-aos="zoom-in-up")
-            .bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/9.svg"
-                alt="Barreras"
-                style="width: 90px"
-              )
-              h5.mb-2.text-center Transparencia
-              p.mb-0.text-center Comunicar con honestidad, para ganar la confianza del consumidor.
-
-          .col-lg-3.mb-4(data-aos="zoom-in-up")
-            .bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/10.svg"
-                alt="Información"
-                style="width: 90px"
-              )
-              h5.mb-2.text-center Sostenibilidad
-              p.mb-0.text-center Implementar prácticas empresariales responsables, que minimicen el impacto ambiental.
-
-          .col-lg-3.mb-4(data-aos="zoom-in-up")
-            .bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/11.svg"
-                alt="Producto"
-                style="width: 90px"
-              )
-              h5.mb-2.text-center Privacidad del cliente
-              p.mb-0.text-center Proteger la información personal en un entorno digitalizado.
-
-          .col-lg-3.mb-4(data-aos="zoom-in-up")
-            .bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/10.svg"
-                alt="Agentes"
-                style="width: 90px"
-              )
-              h5.mb-2.text-center Agentes
-              p.mb-0.text-center Numerosos consumidores y productores.
-              p.mb-0.text-center Empresas precio-aceptantes.
-              p.mb-0.text-center Sin poder de mercado.
-
-
-    .bg-full-width.bg-fondo-2.mb-5
-
-      .row.justify-content-center.align-items-stretch
-        .col-lg-6(data-aos="zoom-in")
-          .pe-5
-            img.img-fluid(src='@/assets/curso/tema1/12.svg', style="max-width:509px", alt="").mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
-
-        .col-lg-6(data-aos="fade-left")
-          .pt-5.pe-5
-            p(data-aos="fade-left").my-4 #[strong Reflexiones desde la literatura]
-            
-            ol.lista-ol(data-aos="fade-up")
-              li.mb-5
-                .lista-ol--cuadro__vineta
-                  span 1
-                | Kotler y Keller enfatizan que "El #[em marketing] ético y responsable, no solo genera confianza, sino que asegura la sostenibilidad de las empresas, a largo plazo".
-              li 
-                .lista-ol--cuadro__vineta
-                  span 2
-                | Según Giraldo Oliveros et al. (#[em Marketing: una versión gráfica]), el compromiso social no es solo una estrategia, sino una expectativa básica de los consumidores modernos.
-
-
-    .bg-full-width.bg-color-2.mb-5
+    .bg-full-width.bg-color-2
       .px-4.px-md-5.py-4
         .row.align-items-center
           .col-lg-auto
-            img(src="@/assets/curso/tema1/13.svg", style="max-width: 90px").mx-auto
+            img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0 Los pilares fundamentales del mercadeo reflejan el equilibrio entre la creación de valor, la satisfacción del cliente, la construcción de relaciones a largo plazo, la adaptabilidad al entorno y la responsabilidad social. Estas prácticas permiten a las empresas prosperar en un mundo globalizado y dinámico, asegurando relevancia, sostenibilidad y rentabilidad. 
+            p.mb-0 Recuerde: comprender las etapas del proceso de decisión del consumidor, es fundamental para que las empresas diseñen estrategias efectivas en cada punto de interacción. Desde generar conciencia hasta fomentar la lealtad post-compra, cada etapa ofrece oportunidades para mejorar la experiencia del cliente y, a su vez, optimizar los resultados comerciales. 
 
     
-    #t_1_2.titulo-segundo(data-aos="flip-up")
-      h2 #[span 1.2] Funciones del mercadeo
-
-    .row.mb-5
-
-      .col-lg-8
-
-        p(data-aos="fade-left").mb-4 El mercadeo desempeña un papel estratégico dentro de las organizaciones, al integrar múltiples funciones que permiten conectar a las empresas con sus consumidores y adaptarse a las demandas del mercado.  
-
-        .bg-color-1.p-4(data-aos="fade-left")
-          p.mb-0 Estas funciones van más allá de la simple promoción o venta de productos, abarcando un enfoque integral para garantizar que las necesidades y expectativas de los consumidores, sean atendidas de manera efectiva. Según Kotler y otros autores (Marketing Management, Céspedes Sáenz, UAPA), las funciones claves del mercadeo son las siguientes:
-      .col-lg-4
-        figure
-          img(src="@/assets/curso/tema1/14.png", data-aos="zoom-in")
-
-
-
-    .row.align-items-center.mb-5
-
-      .col-lg-4
-        figure
-          img(src="@/assets/curso/tema1/15.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
-
-      .col-lg-8
-        LineaTiempoD.color-primario.large(data-aos="fade-left")
-          div(numero="1" titulo="Investigación de mercados") 
-            p La base de toda estrategia de mercadeo, es comprender profundamente al consumidor, el entorno y la competencia. Esta función implica:
-            ul.lista-ul
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Recolección y análisis de datos:] Uso de encuestas, entrevistas, focus groups y herramientas digitales como análisis de Big Data.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Identificación de tendencias:] Analizar los cambios en el comportamiento del consumidor y en el entorno del mercado.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Segmentación de consumidores:] Dividir el mercado en grupos homogéneos, con características y necesidades específicas.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Ejemplo práctico:] Netflix utiliza datos sobre preferencias de visualización para desarrollar contenido que se alinee con las demandas de sus usuarios.
-
-          div(numero="2" titulo="Segmentación y posicionamiento") 
-            p La segmentación y el posicionamiento, son funciones esenciales para identificar mercados objetivo y construir una imagen distintiva de la marca. Estas etapas incluyen:
-            ul.lista-ul
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Segmentación del mercado:] Dividir el mercado en segmentos específicos, según variables demográficas, psicográficas, conductuales y geográficas.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Definición del mercado objetivo:] Seleccionar los segmentos con mayor potencial para la empresa.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Posicionamiento de la marca:] Crear una percepción única y atractiva en la mente del consumidor, diferenciándose de la competencia.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Ejemplo práctico:] IKEA se posiciona como una marca que ofrece diseño accesible y sostenible para hogares modernos, enfocándose en un segmento joven y consciente.
-
-          div(numero="3" titulo="Desarrollo de productos y servicios") 
-            p El mercadeo no solo identifica oportunidades en el mercado, sino que guía el diseño y desarrollo de productos y servicios, que satisfagan las necesidades de los consumidores. Esto implica:
-            ul.lista-ul
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Innovación:] Introducir productos que combinen funcionalidad, estética y sostenibilidad.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Pruebas de producto:] Validar la aceptación del mercado, antes del lanzamiento oficial.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Ajustes, según el feedback:] Modificar productos o servicios, para mejorar su aceptación.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Ejemplo práctico:] Apple utiliza datos y retroalimentación de sus usuarios, para mejorar constantemente productos como el iPhone.
-
-    .row.align-items-center.mb-5
-      .col-lg-8
-        LineaTiempoD.color-primario.large(data-aos="fade-left")
-          div(numero="4" titulo="Fijación de precios") 
-            p El precio es una de las decisiones más críticas en el mercadeo, dado que afecta directamente la percepción del consumidor y la rentabilidad de la empresa. La fijación de precios incluye:
-            ul.lista-ul
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Evaluación de costos y márgenes.] Garantizar que los precios sean rentables.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Análisis de la competencia.] Establecer precios competitivos sin comprometer el valor percibido.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Valor percibido.] Ajustar precios, según el nivel de beneficios que los consumidores esperan recibir.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Ejemplo práctico:] Starbucks cobra precios premium, basados en la experiencia y la percepción de calidad de sus productos.
-
-          div(numero="5" titulo="Promoción y comunicación") 
-            p La promoción conecta a las empresas con los consumidores, a través de mensajes que informan, persuaden y recuerdan el valor del producto o servicio. Incluye:
-            ul.lista-ul
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Publicidad.] Campañas en medios tradicionales y digitales.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Relaciones públicas.] Gestión de la reputación de la marca.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Marketing digital.] Uso de redes sociales, e-mail, marketing y estrategias de contenido.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Ejemplo práctico:] Nike utiliza su campaña "Just Do It" para inspirar a los consumidores a superar sus límites, conectando emocionalmente a través de mensajes motivadores, atletas reconocidos y contenido digital, en redes sociales que promueven valores de esfuerzo, determinación y logro personal.
-
-          div(numero="6" titulo="Canales de distribución") 
-            p La distribución asegura que los productos estén disponibles en el lugar y momento correctos. Esto implica:
-            ul.lista-ul
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Selección de canales.] Elegir entre distribución directa, minoristas, comercio electrónico o modelos híbridos.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Gestión logística.] Garantizar la eficiencia en el transporte, almacenamiento y entrega.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Acceso al consumidor.] Crear puntos de contacto convenientes y accesibles.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Ejemplo práctico:] Amazon optimiza su logística, para ofrecer entregas rápidas a través de su red global de distribución.
-
-          div(numero="7" titulo="Gestión de Relaciones con el Cliente (CRM)") 
-            p El mercadeo moderno se centra en construir relaciones sostenibles con los clientes, mediante la personalización y el servicio continuo. Esta función incluye:
-            ul.lista-ul
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Recopilación y análisis de datos.] Identificar patrones de consumo y anticipar necesidades.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Personalización.] Adaptar las ofertas y experiencias, a las preferencias individuales.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Fidelización.] Diseñar programas que incentiven la lealtad, como descuentos o puntos de recompensa.
-              li.mb-2
-                i.fas.fa-check-circle
-                | #[b Ejemplo práctico:] El programa de recompensas Starbucks Rewards, permite a los clientes acumular puntos para futuras compras, fortaleciendo la lealtad.
-
-      .col-lg-4
-        figure
-          img(src="@/assets/curso/tema1/16.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
-
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
         h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
@@ -518,15 +288,44 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/690597?fs_q=Principios__de__mercadeo&prev=fs" target="_blank" rel="noopener noreferrer") Céspedes Sáenz, A. (2010). Principios de mercadeo (5ª ed.). Ecoe Ediciones.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/270387" target="_blank" rel="noopener noreferrer") Cortés Cabrera, J. J. (2023). Guía práctica de Marketing para estudiantes y docentes universitarios. Fundación Universitaria San Mateo.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/185006" target="_blank" rel="noopener noreferrer") Giraldo Oliveros, M. E., Ortiz Velásquez, M. & Castro Abello, M. D. (2021). Marketing: una versión gráfica. Universidad del Norte.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/71478" target="_blank" rel="noopener noreferrer") Kotler, P. & Kotler, M. (2016). Marketing de ciudades. LID Editorial España.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/270611" target="_blank" rel="noopener noreferrer") Kotler, P. Kartajaya, H. & Setiawan, I. (2021). Marketing 5.0: tecnología para la humanidad. LID Editorial España.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/179019" target="_blank" rel="noopener noreferrer") Orero-Blat, M., Rey Martí, A. & Palacios Marqués, D. (2021). Un enfoque práctico del marketing estratégico, operativo y digital. Editorial de la Universidad Politécnica de Valencia.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/269981" target="_blank" rel="noopener noreferrer") Kotler, P., Kartajaya, H. & Setiawan, I. (2018). Marketing 4.0: transforma tu estrategia para atraer al consumidor digital. LID Editorial España.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/243900" target="_blank" rel="noopener noreferrer") UAPA. (2023). Mercadotecnia. Universidad Abierta para Adultos (UAPA).
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/269656" target="_blank" rel="noopener noreferrer") Kotler, P., Kartajaya, H. & Setiawan, I. (2024). Marketing 6.0: el futuro es inmersivo. LID Editorial España.
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=zYuptaFQNmQ" target="_blank" rel="noopener noreferrer") Negocios y Emprendimiento. (2021). Ray Kroc: De vendedor de batidoras a empresario millonario | La historia de McDonald's parte 2
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
