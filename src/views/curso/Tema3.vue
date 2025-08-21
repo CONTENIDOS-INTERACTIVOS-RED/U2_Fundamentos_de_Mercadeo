@@ -1,6 +1,6 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'3. Diferencia entre marketing tradicional y digital'")
+    BannerInterno(:subTitulo="'3. Identificación de mercados objetivo'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
       .bg-color-4.mb-5(data-aos="fade-up")
@@ -47,6 +47,9 @@
         .col-lg-4
           figure
             img(src="@/assets/curso/tema3/4.png", alt="", data-aos="zoom-in").mt-4.mt-lg-0
+
+      p(data-aos="fade-left").mb-5 #[strong Ejemplo.] Mercado de vehículos eléctricos en Europa. Volkswagen, siguiendo principios del #[em Marketing 4.0], ha priorizado el mercado europeo para su línea de vehículos eléctricos. Esto se debe a una combinación de factores: regulaciones ambientales estrictas, subsidios gubernamentales y consumidores con alta conciencia ambiental. Volkswagen utiliza datos de #[em Big Data], para identificar regiones dentro de Europa, donde los consumidores están más dispuestos a comprar vehículos eléctricos.
+
 
       #t_3_3.titulo-segundo(data-aos="flip-up")
         h2 #[span 3.3] Herramientas de análisis y posicionamiento

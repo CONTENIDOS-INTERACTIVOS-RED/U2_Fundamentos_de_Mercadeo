@@ -175,7 +175,7 @@
               h2.mb-4(data-aos="flip-up") Ejemplo de aplicación práctica 
               p.mb-4(data-aos="fade-right") La segmentación de mercados y el análisis del comportamiento del consumidor son elementos clave en el diseño de estrategias de marketing que conecten con las necesidades y valores de diferentes públicos. En el PDF Ejemplo de aplicación práctica, se presentan casos reales que ilustran cómo empresas como Apple han implementado estrategias basadas en criterios demográficos, psicográficos, conductuales y geográficos. Estos ejemplos destacan cómo las marcas pueden integrar prácticas responsables, sostenibilidad e innovación para maximizar su impacto en mercados clave y fortalecer su reputación.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_T1.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -209,10 +209,11 @@
           figure
             img(src="@/assets/curso/tema2/15.png", data-aos="zoom-in")
         .col-lg-8
-          .bg-color-1.p-4(data-aos="fade-left").mb-4
+          p(data-aos="fade-left").mb-4  El análisis de datos permite identificar patrones claves en los comportamientos del consumidor, facilitando decisiones estratégicas basadas en información precisa. Este enfoque va más allá de la simple recopilación de datos demográficos y conductuales. A través del análisis predictivo y técnicas de minería de datos, las empresas pueden comprender mejor el ciclo de vida del cliente, sus preferencias y sus comportamientos recurrentes. El uso estratégico de datos amplifica la capacidad de las empresas, para anticiparse a las necesidades de los consumidores.
+
+          .bg-color-1.p-4(data-aos="fade-left")
             p.mb-0 Por ejemplo, Netflix utiliza algoritmos avanzados para analizar los patrones de visualización de sus usuarios, recomendando contenido personalizado basado en preferencias individuales. Este modelo no solo mejora la experiencia del cliente, sino que también aumenta significativamente la retención y lealtad de los usuarios. De manera similar, marcas como Starbucks, emplean sistemas de Big Data para ajustar sus ofertas, según los comportamientos locales, optimizando las operaciones y maximizando el impacto en mercados específicos.
 
-          p(data-aos="fade-left").mb-4  El análisis de datos permite identificar patrones claves en los comportamientos del consumidor, facilitando decisiones estratégicas basadas en información precisa. Este enfoque va más allá de la simple recopilación de datos demográficos y conductuales. A través del análisis predictivo y técnicas de minería de datos, las empresas pueden comprender mejor el ciclo de vida del cliente, sus preferencias y sus comportamientos recurrentes. El uso estratégico de datos amplifica la capacidad de las empresas, para anticiparse a las necesidades de los consumidores.
 
 
       h3(data-aos="fade-left") Herramientas digitales
@@ -289,7 +290,7 @@
               h2.mb-4(data-aos="flip-up") Ejemplo Samsung 
               p.mb-4(data-aos="fade-right") La segmentación de mercados y el uso de tecnologías avanzadas son fundamentales para personalizar la experiencia del cliente y maximizar el impacto de las estrategias de marketing. En el PDF Ejemplo Samsung, se analiza cómo esta empresa ha integrado Big Data e inteligencia artificial para identificar patrones de consumo, realizar segmentaciones en tiempo real y lanzar productos innovadores como los Galaxy Z Fold6 y Z Flip6. Este enfoque permite a Samsung fortalecer su posición en el mercado global, mejorar la satisfacción del cliente y responder eficazmente a las demandas del mercado.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_T1.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto

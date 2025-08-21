@@ -173,8 +173,7 @@
 
     h4(data-aos="fade-left").mb-4 C. Factores adicionales de consumo
 
-    p(data-aos="fade-left").mb-4 El proceso de decisión del consumidor es un recorrido lógico y emocional que los individuos realizan antes, durante y después de adquirir un producto o servicio. Este proceso, aunque en apariencia lineal, puede variar en función de factores individuales, sociales y culturales. Entender cada etapa, permite a las empresas optimizar sus estrategias para influir positivamente en las decisiones de compra:
-
+    p(data-aos="fade-left").mb-4 Algunos factores adicionales de consumo, son:
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
