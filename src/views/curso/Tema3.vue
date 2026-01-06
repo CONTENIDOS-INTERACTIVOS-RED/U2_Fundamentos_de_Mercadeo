@@ -143,19 +143,15 @@
 
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/269981" target="_blank" rel="noopener noreferrer") Kotler, P., Kartajaya, H. & Setiawan, I. (2018). Marketing 4.0: transforma tu estrategia para atraer al consumidor digital. LID Editorial España.
+                a(href="https://elibro.net/es/ereader/tecnologicadeloriente/271478" target="_blank" rel="noopener noreferrer") Kotler, P. & Kotler, M. (2016). Marketing de ciudades (1 ed.). LID Editorial España.
 
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/270611" target="_blank" rel="noopener noreferrer") Kotler, P. Kartajaya, H. & Setiawan, I. (2021). Marketing 5.0: tecnología para la humanidad. LID Editorial España.
+                a(href="https://elibro.net/es/ereader/tecnologicadeloriente/270611" target="_blank" rel="noopener noreferrer") Kotler, P. Kartajaya, H. & Setiawan, I. (2021). Marketing 5.0: tecnología para la humanidad (1 ed.). LID Editorial España.
 
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/269656" target="_blank" rel="noopener noreferrer") Kotler, P., Kartajaya, H. & Setiawan, I. (2024). Marketing 6.0: el futuro es inmersivo. LID Editorial España.
-
-              p.d-flex.my-4
-                img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://www.youtube.com/watch?v=LEvE2xQx-bg&t=36s" target="_blank" rel="noopener noreferrer") DW Español. (2023). Big Data: ¿utopía o distopía?
+                a(href="https://elibro.net/es/ereader/tecnologicadeloriente/142209" target="_blank" rel="noopener noreferrer") Kotler, P. (2024). Marketing empresarial: más allá del profesionalismo, hacia la creatividad, el liderazgo y la sostenibilidad (1 ed.). Ediciones Granica.
 
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure

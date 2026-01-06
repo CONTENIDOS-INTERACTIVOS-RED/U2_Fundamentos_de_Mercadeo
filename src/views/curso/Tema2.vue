@@ -336,33 +336,19 @@
 
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/690597?fs_q=Principios__de__mercadeo&prev=fs" target="_blank" rel="noopener noreferrer") Céspedes Sáenz, A. (2010). Principios de mercadeo (5ª ed.). Ecoe Ediciones.
+                a(href="https://elibro.net/es/ereader/tecnologicadeloriente/69059" target="_blank" rel="noopener noreferrer") Céspedes Sáenz, A. (2010). Principios de mercadeo (5ª ed.). Ecoe Ediciones.
 
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/270387" target="_blank" rel="noopener noreferrer") Cortés Cabrera, J. J. (2023). Guía práctica de Marketing para estudiantes y docentes universitarios. Fundación Universitaria San Mateo.
+                a(href="https://elibro.net/es/ereader/tecnologicadeloriente/69949" target="_blank" rel="noopener noreferrer") Castellanos Ramírez, A. (2015). Logística comercial internacional. Ecoe Ediciones.
 
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/185006" target="_blank" rel="noopener noreferrer") Giraldo Oliveros, M. E., Ortiz Velásquez, M. & Castro Abello, M. D. (2021). Marketing: una versión gráfica. Universidad del Norte.
-
-              p.d-flex.my-4
-                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/71478" target="_blank" rel="noopener noreferrer") Kotler, P. & Kotler, M. (2016). Marketing de ciudades. LID Editorial España.
-
-              p.d-flex.my-4
-              
-                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/269981" target="_blank" rel="noopener noreferrer") Kotler, P., Kartajaya, H. & Setiawan, I. (2018). Marketing 4.0: transforma tu estrategia para atraer al consumidor digital. LID Editorial España.
-
-
-              p.d-flex.my-4
-                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/243900" target="_blank" rel="noopener noreferrer") UAPA. (2023). Mercadotecnia. Universidad Abierta para Adultos (UAPA).
+                a(href="https://elibro.net/es/ereader/tecnologicadeloriente/142209" target="_blank" rel="noopener noreferrer") Lombana-Coy, J. & Palacios-Chacón, L. A. (2020). Competitividad y contexto internacional de los negocios: teoría y aplicación. Universidad del Norte.
 
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://www.youtube.com/watch?v=Nu-bbrdYrpY" target="_blank" rel="noopener noreferrer") Emprende Aprendiendo. (2025). Así Cambiará el Marketing Digital este 2025 | 10 Estrategias Prácticas
+                a(href="https://youtu.be/bizg_tCi19E?si=4_DRkVqnFdcUJuPQ" target="_blank" rel="noopener noreferrer") Emprende Aprendiendo. (2017). ¿Cómo usar el marketing emocional? | Caso Coca-Cola [Video]. YouTube.
 
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure

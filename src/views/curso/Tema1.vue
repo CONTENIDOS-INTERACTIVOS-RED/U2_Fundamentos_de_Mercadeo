@@ -287,44 +287,31 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/690597?fs_q=Principios__de__mercadeo&prev=fs" target="_blank" rel="noopener noreferrer") Céspedes Sáenz, A. (2010). Principios de mercadeo (5ª ed.). Ecoe Ediciones.
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/69059" target="_blank" rel="noopener noreferrer") Céspedes Sáenz, A. (2010). Principios de mercadeo (5ª ed.). Ecoe Ediciones.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/270387" target="_blank" rel="noopener noreferrer") Cortés Cabrera, J. J. (2023). Guía práctica de Marketing para estudiantes y docentes universitarios. Fundación Universitaria San Mateo.
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/185006" target="_blank" rel="noopener noreferrer") Giraldo Oliveros, M. E. Ortiz Velásquez, M. & Castro Abello, M. D. (2021). Marketing: una versión gráfica. Universidad del Norte.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/185006" target="_blank" rel="noopener noreferrer") Giraldo Oliveros, M. E., Ortiz Velásquez, M. & Castro Abello, M. D. (2021). Marketing: una versión gráfica. Universidad del Norte.
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/271478" target="_blank" rel="noopener noreferrer") Kotler, P. & Kotler, M. (2016). Marketing de ciudades (1 ed.). LID Editorial España.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/71478" target="_blank" rel="noopener noreferrer") Kotler, P. & Kotler, M. (2016). Marketing de ciudades. LID Editorial España.
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/270611" target="_blank" rel="noopener noreferrer") Kotler, P. Kartajaya, H. & Setiawan, I. (2021). Marketing 5.0: tecnología para la humanidad (1 ed.). LID Editorial España.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/270611" target="_blank" rel="noopener noreferrer") Kotler, P. Kartajaya, H. & Setiawan, I. (2021). Marketing 5.0: tecnología para la humanidad. LID Editorial España.
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/219019" target="_blank" rel="noopener noreferrer") Orero-Blat, M. Rey Martí, A. & Palacios Marqués, D. (2021). Un enfoque práctico del marketing estratégico, operativo y digital (1 ed.). Editorial de la Universidad Politécnica de Valencia.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/179019" target="_blank" rel="noopener noreferrer") Orero-Blat, M., Rey Martí, A. & Palacios Marqués, D. (2021). Un enfoque práctico del marketing estratégico, operativo y digital. Editorial de la Universidad Politécnica de Valencia.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/269981" target="_blank" rel="noopener noreferrer") Kotler, P., Kartajaya, H. & Setiawan, I. (2018). Marketing 4.0: transforma tu estrategia para atraer al consumidor digital. LID Editorial España.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/243900" target="_blank" rel="noopener noreferrer") UAPA. (2023). Mercadotecnia. Universidad Abierta para Adultos (UAPA).
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicodeloriente/titulos/269656" target="_blank" rel="noopener noreferrer") Kotler, P., Kartajaya, H. & Setiawan, I. (2024). Marketing 6.0: el futuro es inmersivo. LID Editorial España.
-
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/243900" target="_blank" rel="noopener noreferrer") UAPA. (2023). Mercadotecnia (1 ed.). Universidad Abierta para Adultos (UAPA).
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=zYuptaFQNmQ" target="_blank" rel="noopener noreferrer") Negocios y Emprendimiento. (2021). Ray Kroc: De vendedor de batidoras a empresario millonario | La historia de McDonald's parte 2
+              a(href="https://youtu.be/XBywDSGuKAw?si=wPpXOSpue_-yI6Qx" target="_blank" rel="noopener noreferrer") Administración en línea. (2023). Historia del Marketing [Video]. YouTube.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
